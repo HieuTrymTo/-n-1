@@ -1,0 +1,347 @@
+* {
+    font-family: tahoma, arial, sans-serif, 'lucida grande';
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 2.5rem;
+    padding: 0 1rem;
+    border-bottom: 1px solid #eae8e4;
+    background-color: #ffffff;
+    color: black;
+    font-size: 1rem;
+    text-transform: uppercase;
+    z-index: 1;
+    font-size: 0.6875rem;
+}
+
+.header .logo {
+    height: 2rem;
+    width: 125px;
+    border-right: 1px solid #bfa69a;
+
+}
+
+.header .logo a {
+    float: left;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    display: block;
+    margin: auto;
+
+}
+
+.header .help {
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.admin-wrapper {
+    display: flex;
+    height: 700px;
+}
+
+.admin-wrapper .left-sidebar{
+    flex: 2;
+    height: 100%;
+    background-color: #19110b;
+}
+
+
+.admin-wrapper .left-sidebar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.admin-wrapper .left-sidebar ul li a{
+    padding: 18px;
+    display: block;
+    border-bottom: 1px white;
+    color: white;
+    text-decoration: none;
+}
+
+.admin-wrapper .left-sidebar ul li i{
+    color: #fff;
+    width:24px;
+    height:24px;
+}
+
+.admin-wrapper .left-sidebar .special {
+    background-color: rgb(177, 171, 171);
+    
+}
+
+.admin-wrapper .left-sidebar .special a {
+    color: black;
+}
+
+.admin-wrapper .left-sidebar .special i {
+    color: black;
+    width:24px;
+    height:24px;
+}
+
+.admin-wrapper .left-sidebar ul li a:hover {
+    background-color: rgb(243, 237, 237);
+    color: black;
+}
+
+.admin-wrapper .admin-content{
+    flex: 8;
+    height: 100%;
+    padding: 0px 100px 0px 100px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    background-color: #f6f5f3;
+}
+
+.admin-wrapper .admin-content .button-group {
+    margin-top: 40px;
+    
+}
+
+.admin-wrapper .admin-content .button-group a {
+    color: white;
+    text-decoration: none;
+}
+
+.admin-wrapper .admin-content .button-group .btn-big {
+    border: 1px solid #19110b;
+    background-color: #19110b;
+    padding: 5px 30px;
+}
+
+.admin-wrapper .admin-content .statistic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.admin-wrapper .admin-content .statistic .detail {
+    width: 300px;
+    height: 80px;
+    padding: 10px;
+    box-shadow: 5px 3px 8px 0px #888888;
+    border-radius: 5%;
+    background-color: #fff;
+    margin-left: 30px;
+    padding: 20px 30px;
+}
+
+.admin-wrapper .admin-content .statistic .detail:first-child {
+    margin-left: 0px;
+}
+
+.admin-wrapper .admin-content .statistic .detail h1 {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.admin-wrapper .admin-content .page-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.admin-wrapper .admin-content .content .create {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    /* display: flex;
+    justify-content: center; */
+    
+}
+
+.admin-wrapper .admin-content .rank {
+    display: flex;
+    flex-direction: row;
+}
+
+.admin-wrapper .admin-content .rank .content .create {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+    box-shadow: 5px 3px 8px 0px #888888;
+    border-radius: 5%;
+}
+
+th {
+    padding: 15px;
+    /* background-color: #19110b; */
+    /* color: white; */
+    text-align: left;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+tr {
+    background-color: white;
+}
+
+
+.admin-wrapper .admin-content .page-title .edit:hover {
+    text-decoration: underline;
+}
+
+.admin-wrapper .admin-content .page-title .delete:hover {
+    text-decoration: underline;
+}
+
+.admin-wrapper .admin-content .page-title .publish:hover {
+    text-decoration: underline;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+.admin-wrapper .admin-content .login1 {
+    width: 700px;
+
+}
+#test {
+    width: 700px;
+    height: 900px;
+}
+
+#test .create {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(212, 211, 211);
+    /* display: flex;
+    justify-content: center; */
+    
+}
+
+#test .login-infor {
+ 
+    height: 680px;  
+    background-color: white;
+}
+
+#test .login-infor .form-sign-in {
+    padding-bottom: 3rem;
+}
+
+#test .login-infor .form-sign-in form{
+    display: block;
+    margin-top: 0em;
+}
+
+#test .login-infor .form-sign-in .form-field {
+    display: block;
+    font-size: .875rem;
+    letter-spacing: .025rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: inherit;
+    margin-top: 25px;
+}
+
+#test .login-infor .form-sign-in .input-field {
+    background: #fff;
+    background-clip: padding-box;
+    border: 1px solid #eae8e4;
+    box-shadow: none;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    height: 3rem;
+    transition: border .3s cubic-bezier(.39,.575,.565,1);
+    font-size: 1rem;
+    letter-spacing: .025rem;
+    line-height: 2rem;
+    color: #19110b;
+    line-height: 3rem;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+}
+
+#test .login-infor .form-sign-in .term {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    text-align: inherit;
+    text-decoration: underline;
+    font-size: .75rem;
+    letter-spacing: .025rem;
+    line-height: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#test .login-infor .form-sign-in .submit-btn {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    background-color: #19110b;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    height: 50px;
+    padding: 15px 55px;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    margin-top: 30px;
+}
+
+#test .login-infor .form-sign-in .submit-btn:hover {
+    background-color: rgb(201, 186, 186);
+    color: black;
+}
+
+
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background: #19110b;
+    border-top: 1px solid rgb(212, 211, 211);
+}
+
+#footer .footer1 {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 1200px;
+
+}
+
+#footer .footer1 h3 {
+    color: white;  
+    padding: 40px 0px; 
+}
+
+
+
+
+
+
+

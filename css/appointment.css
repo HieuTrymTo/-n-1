@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, arial, sans-serif, 'lucida grande';
+}
+
+
+
+.header {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 2.5rem;
+    padding: 0 1rem;
+    border-bottom: 1px solid #eae8e4;
+    background-color: #ffffff;
+    color: black;
+    font-size: 1rem;
+    text-transform: uppercase;
+    z-index: 1;
+    font-size: 0.6875rem;
+}
+
+.header .logo {
+    height: 2rem;
+    width: 125px;
+    border-right: 1px solid #bfa69a;
+
+}
+
+.header .logo a {
+    float: left;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    display: block;
+    margin: auto;
+
+}
+
+.header .account {
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.login {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #f6f5f3;
+    justify-content: center;
+}
+
+.login .infor {
+    width: 500px;
+    height: 900px;
+    border: 1px solid #eae8e4;
+    border-top: none;
+    border-bottom: none;
+    background-color: white;
+}
+
+.login .infor .call {
+    width: 400px;
+    height: 40px;
+    border-bottom: 1px solid #eae8e4;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.login .infor .call p{
+    color: #000;
+    font-size: .75rem;
+    line-height: .75rem;
+    font-weight: 600;
+    display: block;
+    text-align: left;
+}
+
+
+.login .infor .contact {
+    width: 400px;
+    height: 40px;
+    border-bottom: 1px solid #eae8e4;
+    margin: auto;
+    margin-top: 23px;
+}
+
+.login .infor .contact a{
+    text-decoration: none;
+    color: black;
+}
+
+.login .infor .email {
+    width: 400px;
+    height: 40px;
+    border-bottom: 1px solid #eae8e4;
+    margin: auto;
+    margin-top: 23px;
+}
+
+.login .infor .email a{
+    text-decoration: none;
+    color: black;
+}
+
+.login .infor .find {
+    width: 350px;
+    background: #f6f5f3;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.4285714285714286;
+    letter-spacing: .4px;
+    padding: 1.5rem;
+    margin: auto;
+    margin-top: 70px;
+    height: 370px;
+}
+
+.login .infor .find .da {
+    width: 350px;
+    height: 40px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.login .infor .find .da p {
+    color: #000;
+    font-size: .85rem;
+    line-height: .75rem;
+    font-weight: 600;
+    display: block;
+    text-align: left;
+}
+
+.login .infor .find .ao {
+    width: 350px;
+    height: 23px;
+    border-bottom: 1px solid #eae8e4;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.login .login1 {
+    width: 1055px;
+    display: flex;
+    justify-content: center;
+}
+#test {
+    width: 700px;
+    height: 900px;
+    background-color: #f6f5f3; 
+}
+
+#test .create {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(212, 211, 211);
+    
+}
+
+#test .text {
+    padding: 20px 0px;
+}
+
+#test .text h2 {
+    font-weight: 20px;
+}
+
+#test .login-infor {
+    padding: 1rem 3rem 0;
+    padding-left: 3.125vw;
+    padding-right: 3.125vw;
+    height: 680px;  
+    background-color: white;
+}
+
+#test .login-infor .form-sign-in h4 {
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+#test .login-infor .form-sign-in {
+    padding-bottom: 3rem;
+}
+
+#test .login-infor .form-sign-in form{
+    display: block;
+    margin-top: 0em;
+}
+
+#test .login-infor .form-sign-in .form-field {
+    display: block;
+    font-size: .875rem;
+    letter-spacing: .025rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: inherit;
+    margin-top: 25px;
+}
+
+#test .login-infor .form-sign-in .input-field {
+    background: #fff;
+    background-clip: padding-box;
+    border: 1px solid #eae8e4;
+    box-shadow: none;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    height: 3rem;
+    transition: border .3s cubic-bezier(.39,.575,.565,1);
+    font-size: 1rem;
+    letter-spacing: .025rem;
+    line-height: 2rem;
+    color: #19110b;
+    line-height: 3rem;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+}
+
+#test .login-infor .form-sign-in .term {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    text-align: inherit;
+    text-decoration: underline;
+    font-size: .75rem;
+    letter-spacing: .025rem;
+    line-height: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#test .login-infor .form-sign-in .submit-btn {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    background-color: #19110b;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    height: 50px;
+    padding: 15px 55px;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    margin-top: 30px;
+}
+
+#test .login-infor .form-sign-in .submit-btn:hover {
+    background-color: rgb(201, 186, 186);
+    color: black;
+}
+
+
+#footer {
+    width: 100%;
+    height: 200px;
+    background: #19110b;
+}
+
+#footer .footer1 {
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 1200px;
+    border-bottom: 1px solid rgb(212, 211, 211);
+}
+
+#footer .footer1 h3 {
+    color: white;  
+    padding: 40px 0px; 
+}
+
+#footer .footer2 {
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 1200px;
+}
+
+#footer .footer2 ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#footer .footer2 ul li {
+    display: inline-block;
+    height: 50px;
+    margin-left: 70px;
+
+    margin-top: 40px;
+}
+
+#footer .footer2 ul li:first-child {
+    margin-left: 0px;
+}
+
+#footer .footer2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+

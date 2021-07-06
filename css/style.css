@@ -1,0 +1,1104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma, arial, sans-serif, 'lucida grande';
+    font-size: 14px;
+}
+
+#hello {
+    background-color: rgb(243, 237, 237);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav {
+    width: 100%;
+    height: 125px;
+    border-bottom: 1px solid rgb(212, 211, 211);
+    transition: top .6;
+    box-sizing: border-box;
+    position: sticky;
+    background-color: white;
+    
+}
+
+#header {
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid rgb(212, 211, 211);
+}
+
+#header .container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+#header .container div.contact-infor {
+    float: left;
+    width: 790px;
+    height: 50px;
+}
+
+#header .container div.contact-infor ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+#header .container div.contact-infor ul li{
+    display: inline-block;
+    height: 50px;
+    margin-left: 20px;
+}
+
+#header .container div.contact-infor ul li .tag1-icon {
+    float: left;
+    line-height: 50px;
+}
+
+#header .container div.contact-infor ul li .tag1-text {
+    float: left;
+    margin-top: 15px;
+    margin-left: 7px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+#header .container div.contact-infor ul li .tag1-text span {
+    font-size: 13px;
+}
+
+#header .container div.personal {
+    float: right;
+    width: 300px;
+    height: 50px;
+    
+}
+
+#header .container div.personal ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+#header .container div.personal ul li{
+    height: 100%;
+    margin-left: 30px;
+}
+
+#header .container div.personal ul li:first-child {
+    padding-left: 0;
+    margin-left: 50px;
+}
+
+
+#header .container div.personal ul li .tag2-icon {
+    float: left;
+    line-height: 50px;
+ 
+}
+
+#header .container div.personal ul li .tag2-icon .num-cart {
+    margin-top: -3.8rem;
+    margin-left: 1rem;
+    background: #392d23;
+    border-radius: 50%;
+    text-align: center;
+    /* left: 1rem; */
+    display: block;
+    position: absolute;
+    top: 50%;
+    height: .75rem;
+    width: .75rem;
+    line-height: .75rem;
+    color: #fff;
+    font-size: .5rem;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+#tag2-icon-person {
+    cursor: pointer;
+}
+
+#tag2-icon-person {
+    cursor: pointer;
+}
+
+
+#nav .container {
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+}
+
+#nav .container div.logo {
+    width: 350px;
+    
+}
+
+#nav .container div.logo a {
+    float: left;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    display: block;
+    margin-left: 50px;
+    margin-top: 18px;
+}
+
+#nav .container ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    float: left;
+    width: 700px;
+    margin-left: 40px;
+    height: 20px;
+    margin-top: 25px;
+}
+
+#nav .container ul.menu li {
+    display: inline-block;
+}
+
+#nav .container ul.menu li:hover {
+    border-bottom: 1px solid black;
+}
+
+#nav .container ul.menu li a {
+    text-decoration: none;
+    height: 18px;
+    display: block;
+    margin-bottom: 30px;
+    color: black;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+
+#nav .container ul.menu li p {
+    text-decoration: none;
+    height: 18px;
+    display: block;
+    margin-bottom: 30px;
+    color: black;
+    padding: 0px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#nav .container .menu .new {
+    position: absolute;
+    background-color: #f6f5f3;
+    width: 100%;
+    height: 0px;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: row;
+    visibility: hidden;
+    left: 0;
+    border: 1px solid rgb(212, 211, 211) ;
+    transition: 0.6s;
+    z-index: 2;
+    overflow: hidden;
+}
+
+#nav .container .menu li .new .newMenu {
+    background-color: white;
+    width: 400px;
+}
+
+#nav .container .menu li .new .newMenu li {
+    display: block;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#nav .container .menu li .new .newMenu li:first-child {
+    margin-top: 40px;
+}
+
+#nav .container .menu li .new a {
+    color: black;
+    margin: auto;
+}
+
+#nav .container .menu li .new .newMenu li:hover {
+    border-bottom: none;
+    border-left: 2px solid black;
+}
+
+#nav .container .menu li:hover .new  {
+    visibility: visible;
+    z-index: 2;
+    position: absolute;
+    height: 610px;
+} 
+
+#nav .container .menu .new .newPic img {
+    height: 610px;
+    float: right;
+    border: 1px solid rgb(212, 211, 211) ;
+}
+
+#nav .form-search {
+    width: 400px;
+    float: right; 
+    height: 40px;
+    margin-top: 14px;
+    margin-right: 50px;  
+}
+
+#nav .form-search .keyword {
+    width: 400px;
+    font-size: 1rem;
+    font-weight: 300;
+    border: 1px solid #f6f5f3;
+    height: 40px;
+    color: #19110b;
+    border-radius: 10px;
+    background-color:  #f6f5f3;
+    text-indent: 50px;  
+}
+
+#nav .form-search .btn-search {
+    width: 25px;
+    height: 25px;
+    border: none;
+    position: absolute;
+    top: 74px;
+    right: 410px;  
+}
+
+#nav.animate{
+    top: -125px;
+    z-index: 3;
+    transition: 0.6s;
+}
+
+#nav.sticky{
+    top:0;
+    z-index: 3;
+    transition: 0.6s;
+}
+
+#banner {
+    width: 100%;
+    height: 460px;
+    border-bottom: 1px solid rgb(212, 211, 211);
+    z-index: 1;
+}
+
+#banner .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+#banner .swiper-container .swiper-wrapper .swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+#banner .swiper-container .swiper-wrapper .swiper-slide img {
+    
+    width: 100%;
+}
+
+#feature {
+    width: 1200px;
+    margin: auto;
+}
+
+#feature p {
+    font-size: 1.125rem;
+    color: #19110b;
+    font-weight: 300;
+}
+
+#feature a {
+    text-decoration: none;
+}
+
+#feature a:hover {
+    color: #adad90;
+}
+
+#feature .slice {
+    margin-top: 50px;
+    position: relative;
+    border: 1px solid rgb(212, 211, 211);
+    height: 1035px;
+}
+
+#feature .slice img {
+    display: block;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+
+#feature .slice .left {
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 375px;
+}
+
+#feature .slice .left h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+#feature .slice .left p {
+    margin-top: 20px;
+}
+
+#feature .slice .left h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+#feature .slice .left .btn {
+    padding: 15px 55px;
+    background-color: black;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+
+#feature .slice .left .btn:hover {
+    background-color: rgb(201, 186, 186);
+    color: black;
+}
+
+#feature .banner {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border: 1px solid rgb(212, 211, 211);
+    border-top: none;
+    height: 950px;
+}
+
+#feature .bannerLeft {
+    width: 600px;   
+}
+
+#feature .overviewRight {
+    width: 600px;
+    border: 1px solid rgb(212, 211, 211); 
+    border-top: none;
+    border-right: none;
+    border-bottom: none; 
+}
+
+#feature .overviewRight p{
+    margin-top: 20px;
+    font-size: 1.125rem;
+    color: #19110b;
+    font-weight: 300;
+}
+
+#feature .bannerRight {
+    border: 1px solid rgb(212, 211, 211); 
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+#feature .bannerLeft .left img {
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+#feature .textLeft h2{
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #19110b;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+
+#feature .overviewRight {
+    border: 1px solid rgb(212, 211, 211); 
+    border-top: none;
+    border-right: none;
+    height: 950px;
+    text-align: center;
+}
+
+#feature .overviewRight .scent {
+    height: 243px;
+}
+#feature .overviewRight .scent h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #19110b;  
+    margin-top: 170px;
+}
+
+#feature .overviewRight .btn {
+    padding: 15px 55px;
+    background-color: black;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    
+}
+
+#feature .overviewRight .btn:hover {
+    background-color: rgb(201, 186, 186);
+    color: black;
+}
+
+#feature .bannerRight .right img {
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+#feature .textRight h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #19110b;
+    margin-top: 60px;  
+}
+
+
+#feature .content {
+
+    position: relative;
+    border: 1px solid rgb(212, 211, 211);
+    height: 675px;
+    border-top: none;
+}
+
+#feature .content .title h2{
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+#feature .content .layer1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#feature .content .product {
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-right: -17px;
+   
+}
+
+#feature .content .product:first-child {
+    margin-left: 50px;
+}
+
+#feature .content .product img {
+    width: 100%;
+}
+
+#feature .content .product:hover {
+    transform: scale(1.1);
+}
+
+#feature .content .layer2 {
+    text-align: center;
+}
+
+#feature .content .layer2 .btn {
+    padding: 15px 55px;
+    background-color: black;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    margin-top: 40px;
+    
+}
+
+#feature .content .layer2 .btn:hover {   
+    background-color: rgb(201, 186, 186);
+    color: black;
+}
+
+#footer {
+    width: 100%;
+    height: 200px;
+    background: #19110b;
+    z-index: 3;
+}
+
+#footer .footer1 {
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 1200px;
+    border-bottom: 1px solid rgb(212, 211, 211);
+}
+
+#footer .footer1 h3 {
+    margin-top: 50px;
+    color: white;  
+    padding: 40px 0px; 
+}
+
+#footer .footer2 {
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 1200px;
+}
+
+#footer .footer2 ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#footer .footer2 ul li {
+    display: inline-block;
+    height: 50px;
+    margin-left: 70px;
+
+    margin-top: 40px;
+}
+
+#footer .footer2 ul li:first-child {
+    margin-left: 0px;
+}
+
+#footer .footer2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#login {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 4;
+    display: flex;
+    flex-direction: row;
+    /* opacity: 0.8; */
+}
+
+#login .login-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.82);
+    opacity: 0;
+    transition: 0.6s;
+}
+
+#login .login-form {
+    height: 100%;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: -500px;
+    top: 0;
+    transition: 0.6s;
+}
+
+
+
+#login .login-form .identification {
+    height: 5rem;
+    border: 1px solid rgb(212, 211, 211);
+    width: 100%;
+    border-right: none;
+    border-top: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#login .login-form .identification .identification1 {
+    width: 431px;
+    border-right: 1px solid rgb(212, 211, 211);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 3.125vw;
+    
+}
+
+#login .login-form .identification .identification1 h1 {
+    width: 200px;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+#login .login-form .x {
+    width: 5rem;
+    height: 100%;
+    border-bottom: 1px solid rgb(212, 211, 211);
+    height: 5rem;
+    display: flex;
+}
+
+#login .login-form .x:hover {
+    background-color: #eae8e4;
+}
+
+#login .login-form .x img {
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+#login .login-form .inside-login-form {
+    padding: 3rem 3rem 0;
+    padding-left: 3.125vw;
+    padding-right: 3.125vw;
+    height: 450px;
+    border-bottom: 1px solid rgb(212, 211, 211);
+
+}
+
+#login .login-form .inside-login-form .form-sign-in {
+    padding-bottom: 3rem;
+}
+
+#login .login-form .inside-login-form .form-sign-in h2 {
+    margin: 0 0 1.5rem;
+    width: 100%;
+    height: 25px;
+  
+    font-size: 17px;
+}
+
+#login .login-form .inside-login-form .form-sign-in form {
+    display: block;
+    margin-top: 0em;
+}
+
+#login .login-form .inside-login-form .form-sign-in .form-field {
+    display: block;
+    font-size: .875rem;
+    letter-spacing: .025rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: inherit;
+    margin-top: 25px;
+}
+
+#login .login-form .inside-login-form .form-sign-in .input-field {
+    background: #fff;
+    background-clip: padding-box;
+    border: 1px solid #eae8e4;
+    box-shadow: none;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    height: 3rem;
+    transition: border .3s cubic-bezier(.39,.575,.565,1);
+    font-size: 1rem;
+    letter-spacing: .025rem;
+    line-height: 2rem;
+    color: #19110b;
+    line-height: 3rem;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+}
+
+#login .login-form .inside-login-form .form-sign-in .forgot-pass {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    text-align: inherit;
+    text-decoration: underline;
+    font-size: .75rem;
+    letter-spacing: .025rem;
+    line-height: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#login .login-form .inside-login-form .form-sign-in .submit-btn {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    background-color: #19110b;
+   
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+
+    height: 50px;
+    padding: 15px 55px;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+
+#login .login-form .inside-login-form .form-sign-in .submit-btn:hover {
+    background-color: rgb(201, 186, 186);
+    color: black;
+}
+
+#login .login-form .inside-login-form .form-sign-in p {
+    margin-bottom: 30px;
+    font-size: 1.125rem;
+    letter-spacing: .025rem;
+    line-height: 2rem;
+    font-weight: 300;
+    color: inherit;
+    color: #19110b;
+    text-decoration-line: none;
+}
+
+
+#login .login-form .inside-login-form .form-sign-in .submit-btn1 {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    background-color: #19110b;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+}
+
+#login .login-form .inside-login-form .form-sign-in .submit-btn1:hover {
+    background-color: rgb(201, 186, 186);
+    color: black;
+    text-decoration: none;
+}
+
+#login .login-form .inside-login-form .form-sign-in .submit-btn1 p {
+    text-decoration: none;
+
+}
+
+#login.hide{
+    visibility: hidden;
+}
+
+#login.show {
+    visibility: visible;
+    transition: 0.6s;
+}
+
+#login.show .login-background {
+    opacity: 1;
+}
+
+#login.show .login-form {
+    right: 0px;
+}
+
+/* #forgot-pwd {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+#forgot-pwd .forgot-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.82);
+}
+
+#forgot-pwd .forgot-form {
+    height: 100%;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: -500px;
+    top: 0;
+    transition: 0.6s;
+}
+
+
+
+#forgot-pwd .forgot-form .identification {
+    height: 5rem;
+    border: 1px solid rgb(212, 211, 211);
+    width: 100%;
+    border-right: none;
+    border-top: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#forgot-pwd .forgot-form .identification .identification1 {
+    width: 431px;
+    border-right: 1px solid rgb(212, 211, 211);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 3.125vw;
+    
+}
+
+#forgot-pwd .forgot-form .identification .identification1 h1 {
+    width: 200px;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+#forgot-pwd .forgot-form .x {
+    width: 5rem;
+    height: 100%;
+    border-bottom: 1px solid rgb(212, 211, 211);
+    height: 5rem;
+    display: flex;
+}
+
+#forgot-pwd .forgot-form .x:hover {
+    background-color: #eae8e4;
+}
+
+#forgot-pwd .forgot-form .x img {
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+#forgot-pwd .forgot-form .inside-forgot-form {
+    padding: 3rem 3rem 0;
+    padding-left: 3.125vw;
+    padding-right: 3.125vw;
+    height: 500px;
+    border-bottom: 1px solid rgb(212, 211, 211);
+
+}
+
+#forgot-pwd .forgot-form .inside-forgot-form  .form-forgot {
+    padding-bottom: 5rem;
+}
+
+#forgot-pwd .forgot-form .inside-forgot-form  .form-forgot h2 {
+    margin: 0 0 1.5rem;
+    width: 100%;
+    height: 25px;
+  
+    font-size: 17px;
+}
+
+#forgot-pwd .forgot-form .inside-forgot-form  .form-forgot form {
+    display: block;
+    margin-top: 0em;
+}
+
+#forgot-pwd .forgot-form .inside-forgot-form  .form-forgot .form-field {
+    display: block;
+    font-size: .875rem;
+    letter-spacing: .025rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: inherit;
+    margin-top: 25px;
+}
+
+#forgot-pwd .forgot-form .inside-forgot-form  .form-forgot .email {
+    background: #fff;
+    background-clip: padding-box;
+    border: 1px solid #eae8e4;
+    box-shadow: none;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    height: 3rem;
+    transition: border .3s cubic-bezier(.39,.575,.565,1);
+    font-size: 1rem;
+    letter-spacing: .025rem;
+    line-height: 2rem;
+    color: #19110b;
+    line-height: 3rem;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+}
+
+#forgot-pwd .forgot-form .inside-forgot-form  .form-forgot .send-field {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#forgot-pwd .forgot-form .inside-forgot-form  .form-forgot .cancel {
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    background-color: white;
+    box-shadow: inset 0 0 0 1px #19110b;
+    color: black;
+    line-height: 1;
+    text-align: center;
+    height: 50px;
+    padding: 15px 55px;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+
+#forgot-pwd .forgot-form .inside-forgot-form  .form-forgot .send {
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    background-color: #19110b;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    height: 50px;
+    padding: 15px 55px;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#forgot-pwd .forgot-form .inside-forgot-form  .form-forgot .cancel:hover {
+    background-color: rgb(201, 186, 186);
+    color: black;
+}
+
+#forgot-pwd .forgot-form .inside-forgot-form  .form-forgot .send:hover {
+    background-color: rgb(201, 186, 186);
+    color: black;
+}
+
+#forgot-pwd .forgot-form .inside-forgot-form  .form-forgot p {
+    margin-bottom: 30px;
+    font-size: 1.125rem;
+    letter-spacing: .025rem;
+    line-height: 2rem;
+    font-weight: 300;
+    color: inherit;
+    color: #19110b;
+    text-decoration-line: none;
+}
+
+
+#forgot-pwd .forgot-form .inside-forgot-form  .form-forgot .submit-btn1 {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    background-color: #19110b;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+}
+
+#forgot-pwd .forgot-form .inside-forgot-form  .form-forgot .submit-btn1:hover {
+    background-color: rgb(201, 186, 186);
+    color: black;
+    text-decoration: none;
+}
+
+#forgot-pwd .forgot-form .inside-forgot-form  .form-forgot .submit-btn1 p {
+    text-decoration: none;
+
+}
+
+#forgot-pwd.hideforgot{
+    visibility: hidden;
+}
+
+#forgot-pwd.showforgot {
+    visibility: visible;
+    transition: 0.6s;
+}
+
+#forgot-pwd.showforgot .forgot-form {
+    right: 0px;
+}
+
+#forgot-pwd.showforgot .forgot-background {
+    opacity: 1;
+}
+ */
+
+
+
+
